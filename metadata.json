@@ -1,0 +1,8 @@
+{
+  "name": "Commit+ (MacGit)",
+  "description": "A fast, native open-source Git client for macOS built with Swift and SwiftUI.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

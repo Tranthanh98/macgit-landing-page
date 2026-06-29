@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Lora:ital,wght@0,400;0,500;0,600;1,400&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+:root {
+  --primary-color: #cc5e3c;
+  --primary-color-hover: #b74d2b;
+  --primary-color-light: #f5e3dc;
+  --bg-color: #faf8f5;
+  --card-color: #fcfbf7;
+  --border-color: #e5e3db;
+  --neutral-light-color: #f1ede4;
+  --text-color: #1b1a18;
+  --text-muted-color: #5a5750;
+}
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Lora", Georgia, serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+/* Smooth transition for theme switches */
+body {
+  transition: background-color 0.4s ease, color 0.4s ease, border-color 0.4s ease;
+}
+
+/* Ensure selected text uses dynamic brand colors */
+::selection {
+  background-color: var(--primary-color-light);
+  color: var(--primary-color);
+}
+
