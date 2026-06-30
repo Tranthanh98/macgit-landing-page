@@ -4,13 +4,6 @@ import { Download, Github, Shield, Terminal, Zap, ArrowRight, Sparkles } from 'l
 export default function Hero() {
   return (
     <section className="relative pt-32 pb-24 md:pt-40 md:pb-32 overflow-hidden bg-[var(--bg-color)]">
-      {/* Decorative background grid pattern */}
-      <div className="absolute inset-0 z-0 opacity-40 pointer-events-none" style={{
-        backgroundImage: `radial-gradient(var(--primary-color) 0.75px, transparent 0.75px), radial-gradient(var(--primary-color) 0.75px, var(--bg-color) 0.75px)`,
-        backgroundSize: '40px 40px',
-        backgroundPosition: '0 0, 20px 20px'
-      }} />
-
       {/* Elegant Radial glow */}
       <div className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-[var(--primary-color-light)] opacity-60 rounded-full blur-3xl pointer-events-none z-0" />
 
